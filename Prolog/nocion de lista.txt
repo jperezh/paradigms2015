@@ -1,0 +1,15 @@
+es una lista la lista vacia []
+es una lista aquella cosa que tiene un elemento [a]
+es una lista aquella cosa que tiene un elemento concatenado con otra lista [a:[]]
+
+XEX:
+[a,[b]]
+[a,[b,[c]]]
+..
+..
+..
+RECURSIVIDAD!
+
+member ->predicado 
+
+predicado para pegar 2 listas
