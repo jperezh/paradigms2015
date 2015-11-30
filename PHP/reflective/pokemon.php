@@ -29,6 +29,8 @@ class Pikachu extends Electricity{
     // Attacks
     public function tailWhip() {
     }
+
+    private function seduce(){}
 }
 
 $pikachu = new Pikachu("Ash");

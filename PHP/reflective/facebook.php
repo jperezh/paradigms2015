@@ -14,6 +14,8 @@ class User extends Entity implements Friendable, Likeable, Postable {
     public function friend(User $user){}
     
     public function post(Post $post){}
+    
+    private function deleteFriend(User $annoyingUser){}
 }
  
 $reflection = new \ReflectionClass(new User('Philip Brown', new UUID(1234)));
